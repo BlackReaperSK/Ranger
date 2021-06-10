@@ -14,8 +14,6 @@ async def on_ready():
     print(client.user.id)
     print("______________________________________")
     try:
-      canal = client.get_channel(832336647164526643)
-      await canal.send("**Sistema Online**")
       await client.change_presence(status=discord.Status.do_not_disturb,  activity=discord.Game('$help'))
     except:
       print("Error")
