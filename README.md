@@ -35,11 +35,11 @@ Whether you are a security enthusiast or a professional pentester, Ranger provid
 
 ## ⚙️ Installation and Usage
 
-1. Clone the repository: `git clone https://github.com/yourusername/ranger.git`
-2. Install the required dependencies: `lua dependencies.lua`
-3. Set up your Discord bot and obtain the token. Add the token to the configuration file.
-4. Customize and configure the bot's behavior by modifying the settings in `config.lua`.
-5. Start Ranger: `lua main.lua`
+1. Clone the repository: `git clone https://github.com/BlackRpeaerSK/ranger.git`
+2. Install Lit and Luvit: `curl -L https://github.com/luvit/lit/raw/master/get-lit.sh | sh`
+3. Install Discordia Library: `lit install SinisterRectus/discordia`
+4. Set up your Discord bot and obtain the token. Add the token to the configuration file.
+5. Start Ranger: `luvit ranger.lua`
 6. Invite the bot to your Discord server and enjoy exploring its powerful features!
 
 For detailed information on installation, configuration, and command usage, please refer to the [Wiki](https://github.com/BlackReaperSK/Ranger/wiki).
