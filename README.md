@@ -1,26 +1,56 @@
-# 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Ranger >= PentestBot 🏴󠁧󠁢󠁷󠁬󠁳󠁿
-![Ranger](https://sempreupdate.com.br/wp-content/uploads/2020/01/kali-linux.webp)
+<p align="center">
+  <img src="https://i.imgur.com/AifVtQE.png" alt="Ranger Logo" width="600" height="200">
+</p>
 
-Ranger is a simple bot for Discord made in Python (using discord.py) and intended to auxliary/conduct penetration tests in web applications, using simple APIs caught with WebScraping and OSINT techniques, it has a quick response to help and make tests!
+<h1 align="center">Ranger</h1>
 
+<p align="center">
+  <b>A versatile Discord bot for conducting penetration tests and web application security assessments!</b>
+</p>
 
-# 📙 About The Project
-I made this discod bo thinking "Why don't we have a discod bot today to auxiliary Pentest?", so I got the "Ranger" project on track.
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20with-%F0%9F%92%9B%20Lua-2C2D72.svg" alt="Made with Lua">
+  <img src="https://img.shields.io/badge/Pentest-Friendly-8A2BE2.svg" alt="Pentest Friendly">
+</p>
 
-Using the most basic Python libraries (and also a small technique to keep the bot upright in the replit) I put it to practice. I went looking for APIs and doing simple WebScrapping (https://www.youtube.com/watch?v=D0E6xg053eU) I got some. The Ranger project isn't quite as I wanted it to be, but I think it's good.
+---
 
-![Ranger](https://cdn.discordapp.com/avatars/769239721364291605/6a70eb7e525cf3d78002312d987eeac8.png?size=4096)
+## 📖 About Ranger
 
-# Useds APIs
-HackerTarget - FreeGeoIP - SecuriNet
-* https://api.hackertarget.com/whatweb/?q={hostname}
-* https://api.hackertarget.com/nmap/?q={hostname}
-* https://api.hackertarget.com/hostsearch/?q={hostname}
-* https://freegeoip.app/json/{hostname}
-* http://api.hackertarget.com/sslyze/?q={hostname}
-* https://api.hackertarget.com/findshareddns/?q={hostname}
-* https://sitecheck.sucuri.net/api/v3/?scan={hostname}
-* https://api.hackertarget.com/subnetcalc/?q=192.168.1.0/24
-* https://api.hackertarget.com/bannerlookup/?q=2.2.2.2/24
-* https://api.hackertarget.com/zonetransfer/?q=example.com
+Ranger is a powerful and user-friendly Discord bot designed to assist and conduct penetration tests in web applications. With Ranger, you can leverage various techniques such as OSINT (Open-Source Intelligence), and integrated tools to gather information, assess web application security, and uncover potential vulnerabilities.
 
+Whether you are a security enthusiast or a professional pentester, Ranger provides a range of features to enhance your testing capabilities. It offers seamless integration with Discord, allowing you to conveniently perform tests, share results, and collaborate with your team. 
+
+## 🚀 Features
+
+✅ **API**: Ranger uses some powerful APIs to improve the results.
+
+🔍 **OSINT Techniques**: Leverage OSINT techniques to collect data and enhance your understanding of the target.
+
+🔧 **Integrated Tools**: Ranger integrates various tools commonly used in penetration testing, giving you a streamlined experience within Discord.
+
+🎯 **Target Assessment**: Perform quick assessments of web application security by scanning for vulnerabilities and potential weaknesses.
+
+💬 **Interactive Help**: Ranger offers an interactive help system to guide you through its commands and functionality, making it easy to get started.
+
+## ⚙️ Installation and Usage
+
+1. Clone the repository: `git clone https://github.com/yourusername/ranger.git`
+2. Install the required dependencies: `lua dependencies.lua`
+3. Set up your Discord bot and obtain the token. Add the token to the configuration file.
+4. Customize and configure the bot's behavior by modifying the settings in `config.lua`.
+5. Start Ranger: `lua main.lua`
+6. Invite the bot to your Discord server and enjoy exploring its powerful features!
+
+For detailed information on installation, configuration, and command usage, please refer to the [Wiki](https://github.com/BlackReaperSK/Ranger/wiki).
+
+## 🤝 Contributing
+
+Contributions to Ranger are welcome! If you would like to contribute, you can do so by:
+
+- Opening an issue to report bugs, suggest new features, or ask questions.
+- Providing feedback and engaging in discussions on existing issues.
+- Sharing your ideas and code contributions through pull requests.
+---
+
+<p align="center">Made with ❤️ using Lua and discordia</p>
